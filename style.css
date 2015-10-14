@@ -1,0 +1,20 @@
+.page ul li{
+	list-style:none;
+	display:inline;
+	padding:7px;
+}
+.page{
+	text-align:center;
+}
+.button{
+	border:1px solid #e9e9e9;
+	padding:5px 10px;
+	cursor:pointer;
+	background-color:#7fb6f9;
+	font-weight:bold;
+	border-radius:5px;
+}
+.button:hover{
+	background-color:#ffc703;
+	color:#FFFFFF;
+}
