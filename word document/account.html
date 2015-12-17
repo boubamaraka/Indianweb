@@ -28,36 +28,56 @@
 				<li><a href="men.html" class="item">Men</a></li>
 				<li><a href="make.html" class="item">Make Your Own</a></li>
 				<li><a href="contact.html" class="item">Contact Us</a></li>
-				<li><a href="account.html" class="item">My Account</a></li>
+				<li><a href="" class="item">My Account</a></li>
 				<li><input type="text" value="Search..." onblur="if (this.value == '') {this.value = 'Search...';}" onfocus="if(this.value == 'Search...') {this.value = '';}"/></li>
 				<li><a href=""><img src="images/search.png" alt="Search" title="Search"/></a></li>
 			</ul>
 		</div>
 		<div id="main">
-			<h3>Contact Us</h3>
-			<p>You need help to purchase on the Indiana Stores website or you want to make a suggestion:<br/>
-			Fell free to contact us through this form, You will be answered shortly.</p>
-			<form action="test.php" method="post">
-				<p>Surname *<br/>
-					<input name="surname" type="text"/>
-				</p>
-				<p>Name *<br/>
-					<input name="name" type="text"/>
-				</p>
-				<p>E-mail *<br/>
-					<input name="email" type="text"/>
-				</p>
-				<p>Subject *<br/>
-					<input name="subject" type="text"/>
-				</p>
-				<p>Order N<sup>0</sup><br/>
-					<input name="order" type="text"/>
-				</p>
-				<p>Your Message<br/>
-					<textarea rows="10" cols="30"></textarea>
-				</p>
-				<input class="button" type="submit" value="Send"/> 
-			</form>
+			<h3>LOGIN/REGISTER</h3>
+			<p class="left-align">You don't have to be registered to shop with Indiana Stores, but if you do you'll find that it makes shopping online with us easier and faster. All your details will be saved securely in My Details for you to amend at any time.</p>
+			<p class="left-align">If you are already registered simply enter your *Log-in ID email address and password in the boxes below each time you visit for a quicker Checkout. Please note that your password is case sensitive.</p>
+			<p class="left-align">*Your Log-in ID email is the email address that you registered with.</p>
+			<table id="contact">
+				<tr>
+					<td id="login">
+						<p>Log-in (if you're already registered)</p>
+						<form>
+							<p>Email address: <br/>
+								*<input type="text"/>
+							</p>
+							<p>Password: <br/>
+								*<input type="password"/>
+							</p>
+							<input type="submit" value="Log-in" class="button"/>
+							<a href="#">Forgotten your Password?</a><br/>
+                                                        <input type="submit" value="Log-in" class="button"/>
+							<a href="#">administrator</a>
+
+						</form>
+					</td>
+					<td id="registers">
+						<p>Register (for new customers)</p>
+						<form>
+							<p>Email address: <br/>
+								*<input type="text"/>
+							</p>
+							<p>Confirm email: <br/>
+								*<input type="text"/>
+							</p>
+							<p>Password: <br/>
+								*<input type="password"/>
+							</p>
+							<p>Confirm Password: <br/>
+								*<input type="password"/>
+							</p>
+							<p><input type="checkbox"/>&nbsp;&nbsp;&nbsp;I agree with the <a href="">Terms and Conditions</a></p>
+							<input type="submit" value="Register Me" class="button"/>
+						</form>
+					</td>
+				</tr>
+				
+			</table>
 		</div>
 		<div id="social">
 			<h3>Follow us!</h3>
